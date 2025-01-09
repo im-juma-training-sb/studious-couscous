@@ -1,8 +1,12 @@
 name: My First Workflow 
 
 on: 
-  push: 
-
+  push:
+    branches: 
+      - main 
+    paths: 
+      - 'labs/**
+    
 jobs:
   my-first-job:
     name: Our first Job
